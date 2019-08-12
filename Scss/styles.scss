@@ -3,3 +3,30 @@
 @import "Partials/grid.scss";
 @import "Partials/mixins.scss";
 
+nav {
+    margin: 0 auto;
+    width: $page-width;
+    .nav-list-1 {
+        border: 1px solid;
+        box-sizing: border-box;
+        float: left;
+        padding-top: 1%;
+        [alt="Microsoft Icon"] {
+            height: 1.8rem;
+            width: 25%;
+        }
+        li:nth-child(n+2) {
+            font-size: 0.9rem;
+            position: relative;
+            top: -0.5rem;
+        }
+    }
+    .nav-list-2 {
+        float: right;
+        padding-top: 2%;
+    }
+    li {
+        display: inline;
+        margin-right: 2%;
+    }
+}

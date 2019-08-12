@@ -188,5 +188,26 @@ li {
 
   .col-xl-12 {
     width: 100%; } }
+nav {
+  margin: 0 auto;
+  width: 90%; }
+  nav .nav-list-1 {
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 1%; }
+    nav .nav-list-1 [alt="Microsoft Icon"] {
+      height: 1.8rem;
+      width: 25%; }
+    nav .nav-list-1 li:nth-child(n+2) {
+      font-size: 0.9rem;
+      position: relative;
+      top: -0.5rem; }
+  nav .nav-list-2 {
+    float: right;
+    padding-top: 2%; }
+  nav li {
+    display: inline;
+    margin-right: 2%; }
 
 /*# sourceMappingURL=styles.css.map */
