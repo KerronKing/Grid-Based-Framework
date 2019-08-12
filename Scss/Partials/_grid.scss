@@ -12,7 +12,53 @@
 }
 
 [class*='col-'] {
+    display: inline-block;
     float: left;
+    min-height: 1px;
     padding: 1rem;
     width: 100%;
+}
+@media #{$breakpoint-sm}{
+    .container{
+        width: 95%;
+        max-width: $grid-max-width;
+    }
+    @for $i from 1 through $grid-columns {
+        .col-sm-#{$i}{
+            width: 100% / $grid-columns * $i;
+        }
+    }
+}
+@media #{$breakpoint-md}{
+    .container{
+        width: 95%;
+        max-width: $grid-max-width;
+    }
+    @for $i from 1 through $grid-columns {
+        .col-md-#{$i}{
+            width: 100% / $grid-columns * $i;
+        }
+    }
+}
+@media #{$breakpoint-lg}{
+    .container{
+        width: 95%;
+        max-width: $grid-max-width;
+    }
+    @for $i from 1 through $grid-columns {
+        .col-lg-#{$i}{
+            width: 100% / $grid-columns * $i;
+        }
+    }
+}
+@media #{$breakpoint-xl}{
+    .container{
+        width: 95%;
+        max-width: $grid-max-width;
+    }
+    @for $i from 1 through $grid-columns {
+        .col-xl-#{$i}{
+            width: 100% / $grid-columns * $i;
+        }
+    }
 }
