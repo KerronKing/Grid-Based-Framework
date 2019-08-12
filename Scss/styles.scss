@@ -4,7 +4,7 @@
 @import "Partials/mixins.scss";
 
 nav {
-    margin: 0 auto;
+    margin:$margin;
     width: $page-width;
     .nav-list-1 {
         border: 1px solid;
@@ -36,4 +36,5 @@ nav {
     background-size: contain;
     border: 1px solid black; 
     height: 50rem;
+    @include marginwidth; 
 }

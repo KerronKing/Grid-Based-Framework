@@ -210,4 +210,13 @@ nav {
     display: inline;
     margin-right: 2%; }
 
+.picture-section {
+  background-image: url("../img/lady.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid black;
+  height: 50rem;
+  margin: 0 auto;
+  width: 95%; }
+
 /*# sourceMappingURL=styles.css.map */
