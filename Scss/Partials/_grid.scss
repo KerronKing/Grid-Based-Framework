@@ -12,7 +12,7 @@
 }
 
 [class*='col-'] {
-    display: inline-block;
+    box-sizing: border-box;
     float: left;
     min-height: 1px;
     padding: 1rem;
