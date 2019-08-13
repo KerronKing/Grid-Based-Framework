@@ -287,6 +287,12 @@ nav {
 .panel-container {
   height: 20rem;
   margin-top: 3%; }
+  @media only screen and (max-width: 768px) {
+    .panel-container {
+      height: 30%; } }
+  @media only screen and (max-width: 540px) {
+    .panel-container {
+      height: 45%; } }
   .panel-container a {
     color: #0067b8;
     font-weight: bold;
@@ -299,9 +305,6 @@ nav {
 .b-2 {
   background-image: url("../img/tablet.webp");
   color: white; }
-  @media only screen and (max-width: 768px) {
-    .b-2 {
-      margin-top: 50%; } }
   .b-2 button {
     color: black;
     background-color: white;
@@ -314,9 +317,6 @@ nav {
 .b-3 {
   background-image: url("../img/virtual.webp");
   color: white; }
-  @media only screen and (max-width: 768px) {
-    .b-3 {
-      margin-top: 50%; } }
   .b-3 button {
     color: black;
     background-color: white;
@@ -325,5 +325,22 @@ nav {
   @media only screen and (max-width: 768px) {
     .b-3 .office {
       background-color: #444444; } }
+
+.sixth-section {
+  padding-top: 4.5%;
+  position: relative; }
+  .sixth-section span {
+    color: rgba(0, 0, 0, 0.6);
+    float: left; }
+  .sixth-section ul {
+    bottom: 0.5rem;
+    left: 1%;
+    position: relative; }
+  .sixth-section li {
+    display: inline;
+    padding-right: 1%; }
+  .sixth-section img {
+    height: 2.5rem;
+    width: 2.5rem; }
 
 /*# sourceMappingURL=styles.css.map */

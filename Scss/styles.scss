@@ -121,6 +121,8 @@ nav {
 .panel-container{
     height: 20rem;
     margin-top: $panel_margin_top;
+    @media only screen and(max-width:768px) {height: 30%;}
+    @media only screen and(max-width:540px) { height: 45%;}
     a {
         color: $link-color;
         font-weight: bold;
@@ -135,9 +137,6 @@ nav {
 .b-2{
    background-image: url("../img/tablet.webp");
     color:white;
-    @media only screen and (max-width: 768px) {
-        margin-top: 50%;
-        } 
     button {
         color: $button_text2;
         background-color: $button_text;
@@ -153,9 +152,6 @@ nav {
 .b-3{
     background-image: url("../img/virtual.webp");
     color:white;
-    @media only screen and (max-width: 768px) {
-        margin-top: 50%;
-        }
     button {
         color: $button_text2;
         background-color: $button_text;
@@ -166,5 +162,26 @@ nav {
        @media only screen and (max-width: 768px) {
         background-color: #444444;
         }
+    }
+}
+.sixth-section {
+    padding-top: 4.5%;
+    position: relative;
+    span {
+        color: rgba(0,0,0,.6);
+        float: left;
+    }
+    ul {
+        bottom: 0.5rem;
+        left: 1%;
+        position: relative;
+    }
+    li {
+        display: inline;
+        padding-right: 1%;
+    }
+    img {
+        height: 2.5rem;
+        width: 2.5rem;
     }
 }
