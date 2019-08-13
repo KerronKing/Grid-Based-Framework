@@ -39,6 +39,11 @@ nav {
     height: 30rem;
     @include marginwidth; 
 }
+.picture-section button{
+    color: $button_text;
+    background-color: $button_background;
+    padding: $button_padding;
+}
 
 .panel-container{
     height: 20rem;

@@ -220,6 +220,11 @@ nav {
   margin: 0 auto;
   width: 95%; }
 
+.picture-section button {
+  color: white;
+  background-color: black;
+  padding: 2%; }
+
 .panel-container {
   height: 20rem;
   margin-top: 3%; }
