@@ -32,9 +32,20 @@ nav {
 }
 .picture-section{
     background-image: url("../img/lady.webp");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 1px solid black; 
-    height: 50rem;
+    height: 30rem;
     @include marginwidth; 
+}
+
+.panel-container{
+    height: 20rem;
+    margin-top: $panel_margin_top;
+}
+
+.panel-img{
+    text-align: $img_align;
+    width: $img_size;
 }
