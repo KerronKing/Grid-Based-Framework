@@ -185,3 +185,39 @@ nav {
         width: 2.5rem;
     }
 }
+footer{
+    background-color: #E5E5E5;
+    li{
+        color: #616161;
+        margin-top: 1rem;
+        @media only screen and (max-width: 768px) {
+            
+        }
+    }
+    .list-title{
+        color: gray;
+        font-size: 1.2rem;
+    }
+    .language{
+        li{
+            display: inline;
+        }
+    }
+    .footer-last-list{
+        float: right;
+        li{
+            display: inline;
+        }
+    }
+    .footer-list-cont2:after{
+        display: table;
+        clear: both;
+        content: "";
+    }
+    img{
+        height: 3%;
+        width: 5%;
+        
+    }
+}
+

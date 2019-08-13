@@ -343,4 +343,26 @@ nav {
     height: 2.5rem;
     width: 2.5rem; }
 
+footer {
+  background-color: #E5E5E5; }
+  footer li {
+    color: #616161;
+    margin-top: 1rem; }
+  footer .list-title {
+    color: gray;
+    font-size: 1.2rem; }
+  footer .language li {
+    display: inline; }
+  footer .footer-last-list {
+    float: right; }
+    footer .footer-last-list li {
+      display: inline; }
+  footer .footer-list-cont2:after {
+    display: table;
+    clear: both;
+    content: ""; }
+  footer img {
+    height: 3%;
+    width: 5%; }
+
 /*# sourceMappingURL=styles.css.map */
