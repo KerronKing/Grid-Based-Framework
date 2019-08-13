@@ -12,7 +12,7 @@ nav {
         padding-top: 1%;
         [alt="Microsoft Icon"] {
             height: 1.8rem;
-            width: 25%;
+            width: 22%;
             @media only screen and (max-width: 840px) {
                 left: 45%;
                 position: absolute;
@@ -31,19 +31,25 @@ nav {
     .nav-list-2 {
         float: right;
         padding-top: 2%;
-        width: 23%;
-        @media only screen and (max-width: 840px) {
-            width: 10%;
+        li {
+            float: right;
         }
-        li:first-child {
+        @media only screen and (max-width: 840px) {
+            width: 20%;
+        }
+        @media only screen and (max-width: 540px) {
+            margin-top: -7%;
+            width: 28%;
+        }
+        li:last-child {
             font-size: 0.9rem;
             position: relative;
-            top: -0.85rem;
+            top: 0;
             @media only screen and (max-width: 840px) {
                 display: none;
             }
         }
-        li:nth-child(2) {
+        li:nth-child(3) {
             @media only screen and (max-width: 840px) {
                 left: 5%;
                 position: absolute;
@@ -62,6 +68,7 @@ nav {
         margin-right: 2%;
     }
 }
+
 .picture-section{
     background-position: right;
     background-repeat: no-repeat;
