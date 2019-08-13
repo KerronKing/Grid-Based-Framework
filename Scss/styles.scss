@@ -13,16 +13,49 @@ nav {
         [alt="Microsoft Icon"] {
             height: 1.8rem;
             width: 25%;
+            @media only screen and (max-width: 840px) {
+                left: 45%;
+                position: absolute;
+                width: 15%;
+            }
         }
         li:nth-child(n+2) {
             font-size: 0.9rem;
             position: relative;
             top: -0.5rem;
+            @media only screen and (max-width: 840px) {
+                display: none;
+            }
         }
     }
     .nav-list-2 {
         float: right;
         padding-top: 2%;
+        width: 23%;
+        @media only screen and (max-width: 840px) {
+            width: 10%;
+        }
+        li:first-child {
+            font-size: 0.9rem;
+            position: relative;
+            top: -0.85rem;
+            @media only screen and (max-width: 840px) {
+                display: none;
+            }
+        }
+        li:nth-child(2) {
+            @media only screen and (max-width: 840px) {
+                left: 5%;
+                position: absolute;
+                top: 2%;
+            }
+        }
+        li {
+            font-size: 0.9rem;
+            padding-right: 2%;
+            position: relative;
+            top: -0.5rem;
+        }
     }
     li {
         display: inline;
