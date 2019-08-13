@@ -63,7 +63,6 @@ nav {
     }
 }
 .picture-section{
-    background-image: url("../img/lady.webp");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,6 +105,18 @@ nav {
     } 
 }
 
+.separator{
+    display: none;
+    @media only screen and(max-width:768px){
+        display: block;
+        height: 15rem;
+        width: 99.7%;
+    }
+}
+
+.b-1{
+    background-image: url("../img/lady.webp");
+}
 
 .panel-container{
     height: 20rem;
@@ -115,12 +126,45 @@ nav {
         font-weight: bold;
         text-decoration: none;
     }
-    @media only screen and (max-width: 768px) {
-        margin-top: 34%;
-    }
 }
 
 .panel-img{
     text-align: $img_align;
     width: $img_size;
+}
+.b-2{
+   background-image: url("../img/tablet.webp");
+    color:white;
+    @media only screen and (max-width: 768px) {
+        margin-top: 50%;
+        } 
+    button {
+        color: $button_text2;
+        background-color: $button_text;
+        font-weight: bold;
+        padding: $button_padding;
+    }
+    .office{
+       @media only screen and (max-width: 768px) {
+        background-color: #444444;
+        } 
+    }
+}
+.b-3{
+    background-image: url("../img/virtual.webp");
+    color:white;
+    @media only screen and (max-width: 768px) {
+        margin-top: 50%;
+        }
+    button {
+        color: $button_text2;
+        background-color: $button_text;
+        font-weight: bold;
+        padding: $button_padding;
+    }
+    .office{
+       @media only screen and (max-width: 768px) {
+        background-color: #444444;
+        }
+    }
 }

@@ -239,7 +239,6 @@ nav {
     margin-right: 2%; }
 
 .picture-section {
-  background-image: url("../img/lady.webp");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,6 +273,17 @@ nav {
     background-color: black;
     padding: 1%; }
 
+.separator {
+  display: none; }
+  @media only screen and (max-width: 768px) {
+    .separator {
+      display: block;
+      height: 15rem;
+      width: 99.7%; } }
+
+.b-1 {
+  background-image: url("../img/lady.webp"); }
+
 .panel-container {
   height: 20rem;
   margin-top: 3%; }
@@ -281,12 +291,39 @@ nav {
     color: #0067b8;
     font-weight: bold;
     text-decoration: none; }
-  @media only screen and (max-width: 768px) {
-    .panel-container {
-      margin-top: 34%; } }
 
 .panel-img {
   text-align: center;
   width: 100%; }
+
+.b-2 {
+  background-image: url("../img/tablet.webp");
+  color: white; }
+  @media only screen and (max-width: 768px) {
+    .b-2 {
+      margin-top: 50%; } }
+  .b-2 button {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 1%; }
+  @media only screen and (max-width: 768px) {
+    .b-2 .office {
+      background-color: #444444; } }
+
+.b-3 {
+  background-image: url("../img/virtual.webp");
+  color: white; }
+  @media only screen and (max-width: 768px) {
+    .b-3 {
+      margin-top: 50%; } }
+  .b-3 button {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 1%; }
+  @media only screen and (max-width: 768px) {
+    .b-3 .office {
+      background-color: #444444; } }
 
 /*# sourceMappingURL=styles.css.map */
