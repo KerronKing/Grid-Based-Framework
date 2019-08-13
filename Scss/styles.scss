@@ -7,7 +7,6 @@ nav {
     margin:$margin;
     width: $page-width;
     .nav-list-1 {
-        border: 1px solid;
         box-sizing: border-box;
         float: left;
         padding-top: 1%;
@@ -32,22 +31,60 @@ nav {
 }
 .picture-section{
     background-image: url("../img/lady.webp");
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid black; 
     height: 30rem;
-    @include marginwidth; 
+    position: relative;
+    @include marginwidth;
+    .office {
+        left: 5%;
+        position: absolute;
+        top: 8%;
+        width: 30%;
+        @media only screen and (max-width: 768px) {
+            background-color: #E0E0E0;
+            height: 15rem;
+            left: 0;
+            top: 100%;
+            width: 99.7%;
+        }
+        h2 {
+            @media only screen and (max-width: 768px) {
+                padding-top: 5%;
+                text-align: $img_align;
+            }
+        }
+        p {
+            @media only screen and (max-width: 768px) {
+                text-align: $img_align;  
+            }
+        }
+        button {
+            @media only screen and (max-width: 768px) {
+                margin-left: 45%;  
+            }
+        }
+    }
+    button {
+        color: $button_text;
+        background-color: $button_background;
+        padding: $button_padding;
+    } 
 }
-.picture-section button{
-    color: $button_text;
-    background-color: $button_background;
-    padding: $button_padding;
-}
+
 
 .panel-container{
     height: 20rem;
     margin-top: $panel_margin_top;
+    a {
+        color: $link-color;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    @media only screen and (max-width: 768px) {
+        margin-top: 34%;
+    }
 }
 
 .panel-img{

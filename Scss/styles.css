@@ -192,7 +192,6 @@ nav {
   margin: 0 auto;
   width: 90%; }
   nav .nav-list-1 {
-    border: 1px solid;
     box-sizing: border-box;
     float: left;
     padding-top: 1%; }
@@ -212,22 +211,50 @@ nav {
 
 .picture-section {
   background-image: url("../img/lady.webp");
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
   height: 30rem;
+  position: relative;
   margin: 0 auto;
   width: 95%; }
-
-.picture-section button {
-  color: white;
-  background-color: black;
-  padding: 2%; }
+  .picture-section .office {
+    left: 5%;
+    position: absolute;
+    top: 8%;
+    width: 30%; }
+    @media only screen and (max-width: 768px) {
+      .picture-section .office {
+        background-color: #E0E0E0;
+        height: 15rem;
+        left: 0;
+        top: 100%;
+        width: 99.7%; } }
+    @media only screen and (max-width: 768px) {
+      .picture-section .office h2 {
+        padding-top: 5%;
+        text-align: center; } }
+    @media only screen and (max-width: 768px) {
+      .picture-section .office p {
+        text-align: center; } }
+    @media only screen and (max-width: 768px) {
+      .picture-section .office button {
+        margin-left: 45%; } }
+  .picture-section button {
+    color: white;
+    background-color: black;
+    padding: 1%; }
 
 .panel-container {
   height: 20rem;
   margin-top: 3%; }
+  .panel-container a {
+    color: #0067b8;
+    font-weight: bold;
+    text-decoration: none; }
+  @media only screen and (max-width: 768px) {
+    .panel-container {
+      margin-top: 34%; } }
 
 .panel-img {
   text-align: center;
