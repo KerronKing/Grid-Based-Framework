@@ -45,14 +45,14 @@
 @each $space in $spaceamounts {
     @each $side in $sides {
       .border-#{str-slice($side, 0, 1)}-#{$space} {
-        border-#{$side}: #{$space}px !important;
+        border-#{$side}: #{$space}px solid !important;
       }
     }
 }
 
 @each $space in $spaceamounts {
     .border-#{$space} {
-      border: #{$space}px !important;
+      border: #{$space}px solid !important;
     }
 }
 
@@ -62,4 +62,8 @@
     .border-radius-#{$space} {
       border-radius: #{$space}px !important;
     }
+}
+
+.border-radius-round{
+  border-radius: $br-round;
 }
