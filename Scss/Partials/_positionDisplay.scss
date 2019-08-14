@@ -7,22 +7,25 @@
   float: right !important;
 }
 .f-n{
-  float: none!important;
+  float: none !important;
 }
 
 /*Position*/
 
 .static{
-  position: static;
+  position: static !important;
 }
 .relative{
-  position: relative;
+  position: relative !important;
 }
 .absolute{
-  position: absolute;
+  position: absolute !important;
 }
 
 /*Display*/
+
+.displayFlex {display: flex !important;}
+.displayHidden {display: hidden !important;}
 
 @media #{$breakpoint-sm}{
   .d-#{$sm}-#{$dn} {

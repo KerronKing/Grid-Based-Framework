@@ -11,8 +11,6 @@ fieldset, img {
 li {
   list-style: none; }
 
-/*display variable*/
-/*flex variables*/
 .container {
   margin: 0 auto;
   width: 100%; }
@@ -778,15 +776,21 @@ li {
 
 /*Position*/
 .static {
-  position: static; }
+  position: static !important; }
 
 .relative {
-  position: relative; }
+  position: relative !important; }
 
 .absolute {
-  position: absolute; }
+  position: absolute !important; }
 
 /*Display*/
+.displayFlex {
+  display: flex !important; }
+
+.displayHidden {
+  display: hidden !important; }
+
 @media only screen and (min-width: 0px) {
   .d-sm-none {
     display: none !important; } }
