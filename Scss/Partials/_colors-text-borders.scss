@@ -38,3 +38,28 @@
 .txt-a-center {text-align: $v-a-center !important;}
 .txt-a-left {text-align: $j-c-left !important;}
 .txt-a-right { text-align: $j-c-right !important;}
+
+//Border Framework Classes
+
+//Border Classes
+@each $space in $spaceamounts {
+    @each $side in $sides {
+      .border-#{str-slice($side, 0, 1)}-#{$space} {
+        border-#{$side}: #{$space}px !important;
+      }
+    }
+}
+
+@each $space in $spaceamounts {
+    .border-#{$space} {
+      border: #{$space}px !important;
+    }
+}
+
+//Border-radius Classes
+
+@each $space in $spaceamounts {
+    .border-radius-#{$space} {
+      border-radius: #{$space}px !important;
+    }
+}
