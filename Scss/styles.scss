@@ -2,7 +2,8 @@
 @import "Partials/variables.scss";
 @import "Partials/grid.scss";
 @import "Partials/mixins.scss";
-@import "Partials/utilities";
+@import "Partials/utilities.scss";
+@import "Partials/positionDisplay.scss";
 
 nav {
     margin:$margin;

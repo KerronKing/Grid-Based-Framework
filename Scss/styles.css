@@ -11,6 +11,8 @@ fieldset, img {
 li {
   list-style: none; }
 
+/*display variable*/
+/*flex variables*/
 .container {
   margin: 0 auto;
   width: 100%; }
@@ -764,6 +766,113 @@ li {
 
   .p-r-xl-5 {
     padding-right: 5rem !important; } }
+/*Float*/
+.f-l {
+  float: left !important; }
+
+.f-r {
+  float: right !important; }
+
+.f-n {
+  float: none !important; }
+
+/*Position*/
+.static {
+  position: static; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+/*Display*/
+@media only screen and (min-width: 0px) {
+  .d-sm-none {
+    display: none !important; } }
+@media only screen and (min-width: 540px) {
+  .d-md-none {
+    display: none !important; } }
+@media only screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none !important; } }
+@media only screen and (min-width: 1084px) {
+  .d-xl-none {
+    display: none !important; } }
+/*Flex Vertical Align*/
+@media only screen and (min-width: 0px) {
+  .va-sm-center {
+    vertical-align: center !important; } }
+@media only screen and (min-width: 0px) {
+  .va-sm-bottom {
+    vertical-align: bottom !important; } }
+@media only screen and (min-width: 0px) {
+  .va-sm-top {
+    vertical-align: top !important; } }
+@media only screen and (min-width: 540px) {
+  .va-md-center {
+    vertical-align: center !important; } }
+@media only screen and (min-width: 540px) {
+  .va-md-bottom {
+    vertical-align: bottom !important; } }
+@media only screen and (min-width: 540px) {
+  .va-md-top {
+    vertical-align: top !important; } }
+@media only screen and (min-width: 768px) {
+  .va-lg-center {
+    vertical-align: center !important; } }
+@media only screen and (min-width: 768px) {
+  .va-lg-bottom {
+    vertical-align: bottom !important; } }
+@media only screen and (min-width: 768px) {
+  .va-lg-top {
+    vertical-align: top !important; } }
+@media only screen and (min-width: 1084px) {
+  .va-xl-center {
+    vertical-align: center !important; } }
+@media only screen and (min-width: 1084px) {
+  .va-xl-bottom {
+    vertical-align: bottom !important; } }
+@media only screen and (min-width: 1084px) {
+  .va-xl-top {
+    vertical-align: top !important; } }
+/*Flex Justify Content*/
+@media only screen and (min-width: 0px) {
+  .jc-sm-center {
+    justify-content: center !important; } }
+@media only screen and (min-width: 0px) {
+  .jc-sm-right {
+    justify-content: right !important; } }
+@media only screen and (min-width: 0px) {
+  .jc-sm-left {
+    justify-content: left !important; } }
+@media only screen and (min-width: 540px) {
+  .jc-md-center {
+    justify-content: center !important; } }
+@media only screen and (min-width: 540px) {
+  .jc-md-right {
+    justify-content: right !important; } }
+@media only screen and (min-width: 540px) {
+  .jc-md-left {
+    justify-content: left !important; } }
+@media only screen and (min-width: 768px) {
+  .jc-lg-center {
+    justify-content: center !important; } }
+@media only screen and (min-width: 768px) {
+  .jc-lg-right {
+    justify-content: right !important; } }
+@media only screen and (min-width: 768px) {
+  .jc-lg-left {
+    justify-content: left !important; } }
+@media only screen and (min-width: 1084px) {
+  .jc-xl-center {
+    justify-content: center !important; } }
+@media only screen and (min-width: 1084px) {
+  .jc-xl-right {
+    justify-content: right !important; } }
+@media only screen and (min-width: 1084px) {
+  .jc-xl-left {
+    justify-content: left !important; } }
 nav {
   margin: 0 auto;
   width: 90%; }
