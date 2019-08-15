@@ -1,0 +1,68 @@
+$grid-columns: 12;
+$grid-max-width: 1200px;
+$breakpoint-sm: "only screen and (min-width: 0px)";
+$breakpoint-md: "only screen and (min-width: 540px)";
+$breakpoint-lg: "only screen and (min-width: 768px)";
+$breakpoint-xl: "only screen and (min-width: 1084px)";
+
+$margin: 0 auto;
+$page-width: 90%;
+$section-width:100%;
+
+$button_background:black;
+$button_padding:1%;
+$button_text: white;
+$button_text2:black;
+$link-color: #0067b8;
+
+$panel_margin_top:3%;
+$img_size:100%;
+$img_align:center;
+
+$spaceamounts: (0, 1, 2, 3, 4, 5);
+$sides: (top, bottom, left, right);
+
+// Breakpoints
+$sm: "sm";
+$md: "md";
+$lg: "lg";
+$xl: "xl";
+
+//display variable
+$dn:none;
+
+// flex variables
+$v-a-center:center;
+$v-a-bottom:bottom;
+$v-a-top:top;
+
+$j-c-center:center;
+$j-c-left:left;
+$j-c-right:right;
+
+// Color Variables
+$red-text: #DF2828;
+$blue-text: #2873DF;
+$green-text: #28DF52;
+$yellow-text: #EAEE16;
+$purple-text: #8816EE;
+$pink-text: #FF56FF;
+$gray-text: #C2C2C2;
+$brown-text: #7C6347;
+$orange-text: #EF840B;
+$white-text: #FFFDFC;
+
+//Font-Size Variables
+$font-size-1: 0.5rem;
+$font-size-2: 1rem;
+$font-size-3: 1.5rem;
+$font-size-4: 2rem;
+$font-size-5: 2.5rem;
+
+//Font-Weight Variables
+$font-weight-normal: normal;
+$font-weight-medium: medium;
+$font-weight-bold: bold;
+
+//border-radius-round
+$br-round: 50%;

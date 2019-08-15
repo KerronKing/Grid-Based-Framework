@@ -1,0 +1,69 @@
+// Text Color Framework Classes
+.red-text {color: $red-text !important;}
+.blue-text {color: $blue-text !important;}
+.green-text {color: $green-text !important;}
+.blue-text {color: $yellow-text !important;}
+.purple-text {color: $purple-text !important;}
+.pink-text {color: $pink-text !important;}
+.gray-text {color: $gray-text !important;}
+.brown-text {color: $brown-text !important;}
+.orange-text {color: $orange-text !important;}
+.white-text {color: $white-text !important;}
+
+// Background Color Framework Classes
+.red-bg {background-color: $red-text !important;}
+.blue-bg {background-color: $blue-text !important;}
+.green-bg {background-color: $green-text !important;}
+.yellow-bg {background-color: $yellow-text !important;}
+.purple-bg {background-color: $purple-text !important;}
+.pink-bg {background-color: $pink-text !important;}
+.gray-bg {background-color: $gray-text !important;}
+.brown-bg {background-color: $brown-text !important;}
+.orange-bg {background-color: $orange-text !important;}
+.white-bg {background-color: $white-text !important;}
+
+//Font-Size Fraemwork Classes
+.ft-size-1 {font-size: $font-size-1 !important;}
+.ft-size-2 {font-size: $font-size-2 !important;}
+.ft-size-3 {font-size: $font-size-3 !important;}
+.ft-size-4 {font-size: $font-size-4 !important;}
+.ft-size-5 {font-size: $font-size-5 !important;}
+
+//Font-Weight Fraemwork Classes
+.ft-wn {font-weight: $font-weight-normal !important;}
+.ft-wm {font-weight: $font-weight-medium !important;}
+.ft-wb {font-weight: $font-weight-bold !important;}
+
+//Text-Alignment Framework Classes
+.txt-a-center {text-align: $v-a-center !important;}
+.txt-a-left {text-align: $j-c-left !important;}
+.txt-a-right { text-align: $j-c-right !important;}
+
+//Border Framework Classes
+
+//Border Classes
+@each $space in $spaceamounts {
+    @each $side in $sides {
+      .border-#{str-slice($side, 0, 1)}-#{$space} {
+        border-#{$side}: #{$space}px solid !important;
+      }
+    }
+}
+
+@each $space in $spaceamounts {
+    .border-#{$space} {
+      border: #{$space}px solid !important;
+    }
+}
+
+//Border-radius Classes
+
+@each $space in $spaceamounts {
+    .border-radius-#{$space} {
+      border-radius: #{$space}px !important;
+    }
+}
+
+.border-radius-round{
+  border-radius: $br-round;
+}

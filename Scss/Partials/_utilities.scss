@@ -1,0 +1,59 @@
+@media #{$breakpoint-sm}{
+
+    @each $space in $spaceamounts {
+        @each $side in $sides {
+          .m-#{str-slice($side, 0, 1)}-#{$sm}-#{$space} {
+            margin-#{$side}: #{$space}rem !important;
+          }
+        
+          .p-#{str-slice($side, 0, 1)}-#{$sm}-#{$space} {
+            padding-#{$side}: #{$space}rem !important;
+          }
+        }
+    }
+}
+
+@media #{$breakpoint-md}{
+
+    @each $space in $spaceamounts {
+        @each $side in $sides {
+          .m-#{str-slice($side, 0, 1)}-#{$md}-#{$space} {
+            margin-#{$side}: #{$space}rem !important;
+          }
+        
+          .p-#{str-slice($side, 0, 1)}-#{$md}-#{$space} {
+            padding-#{$side}: #{$space}rem !important;
+          }
+        }
+    }
+}
+
+@media #{$breakpoint-lg}{
+
+    @each $space in $spaceamounts {
+        @each $side in $sides {
+          .m-#{str-slice($side, 0, 1)}-#{$lg}-#{$space} {
+            margin-#{$side}: #{$space}rem !important;
+          }
+        
+          .p-#{str-slice($side, 0, 1)}-#{$lg}-#{$space} {
+            padding-#{$side}: #{$space}rem !important;
+          }
+        }
+    }
+}
+
+@media #{$breakpoint-xl}{
+
+    @each $space in $spaceamounts {
+        @each $side in $sides {
+          .m-#{str-slice($side, 0, 1)}-#{$xl}-#{$space} {
+            margin-#{$side}: #{$space}rem !important;
+          }
+        
+          .p-#{str-slice($side, 0, 1)}-#{$xl}-#{$space} {
+            padding-#{$side}: #{$space}rem !important;
+          }
+        }
+    }
+}

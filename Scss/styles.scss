@@ -1,0 +1,233 @@
+@import "Partials/reset.scss";
+@import "Partials/variables.scss";
+@import "Partials/grid.scss";
+@import "Partials/mixins.scss";
+@import "Partials/utilities.scss";
+@import "Partials/positionDisplay.scss";
+@import "Partials/colors-text-borders.scss";
+
+nav {
+    margin:$margin;
+    width: $page-width;
+    .nav-list-1 {
+        box-sizing: border-box;
+        float: left;
+        padding-top: 1%;
+        [alt="Microsoft Icon"] {
+            height: 1.8rem;
+            width: 22%;
+            @media only screen and (max-width: 840px) {
+                left: 45%;
+                position: absolute;
+                width: 15%;
+            }
+        }
+        li:nth-child(n+2) {
+            font-size: 0.9rem;
+            position: relative;
+            top: -0.5rem;
+            @media only screen and (max-width: 840px) {
+                display: none;
+            }
+        }
+    }
+    .nav-list-2 {
+        float: right;
+        padding-top: 2%;
+        li {
+            float: right;
+        }
+        @media only screen and (max-width: 840px) {
+            width: 20%;
+        }
+        @media only screen and (max-width: 540px) {
+            margin-top: -7%;
+            width: 28%;
+        }
+        li:last-child {
+            font-size: 0.9rem;
+            position: relative;
+            top: 0;
+            @media only screen and (max-width: 840px) {
+                display: none;
+            }
+        }
+        li:nth-child(3) {
+            @media only screen and (max-width: 840px) {
+                left: 5%;
+                position: absolute;
+                top: 2%;
+            }
+        }
+        li {
+            font-size: 0.9rem;
+            padding-right: 2%;
+            position: relative;
+            top: -0.5rem;
+        }
+    }
+    li {
+        display: inline;
+        margin-right: 2%;
+    }
+}
+
+.picture-section{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    position: relative;
+    @include marginwidth;
+    .office {
+        left: 5%;
+        position: absolute;
+        top: 8%;
+        width: 30%;
+        @media only screen and (max-width: 768px) {
+            background-color: #E0E0E0;
+            height: 15rem;
+            left: 0;
+            top: 100%;
+            width: 99.7%;
+        }
+        h2 {
+            @media only screen and (max-width: 768px) {
+                padding-top: 5%;
+                text-align: $img_align;
+            }
+        }
+        p {
+            @media only screen and (max-width: 768px) {
+                text-align: $img_align;  
+            }
+        }
+        button {
+            @media only screen and (max-width: 768px) {
+                margin-left: 45%;  
+            }
+        }
+    }
+    button {
+        color: $button_text;
+        background-color: $button_background;
+        padding: $button_padding;
+    } 
+}
+
+.separator{
+    display: none;
+    @media only screen and(max-width:768px){
+        display: block;
+        height: 15rem;
+        width: 99.7%;
+    }
+}
+
+.b-1{
+    background-image: url("../img/lady.webp");
+}
+
+.panel-container{
+    height: 20rem;
+    margin-top: $panel_margin_top;
+    @media only screen and(max-width:768px) {height: 30%;}
+    @media only screen and(max-width:540px) { height: 45%;}
+    a {
+        color: $link-color;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.panel-img{
+    text-align: $img_align;
+    width: $img_size;
+}
+.b-2{
+   background-image: url("../img/tablet.webp");
+    color:white;
+    button {
+        color: $button_text2;
+        background-color: $button_text;
+        font-weight: bold;
+        padding: $button_padding;
+    }
+    .office{
+       @media only screen and (max-width: 768px) {
+        background-color: #444444;
+        } 
+    }
+}
+.b-3{
+    background-image: url("../img/virtual.webp");
+    color:white;
+    button {
+        color: $button_text2;
+        background-color: $button_text;
+        font-weight: bold;
+        padding: $button_padding;
+    }
+    .office{
+       @media only screen and (max-width: 768px) {
+        background-color: #444444;
+        }
+    }
+}
+.sixth-section {
+    padding-top: 4.5%;
+    position: relative;
+    span {
+        color: rgba(0,0,0,.6);
+        float: left;
+    }
+    ul {
+        bottom: 0.5rem;
+        left: 1%;
+        position: relative;
+    }
+    li {
+        display: inline;
+        padding-right: 1%;
+    }
+    img {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+footer{
+    background-color: #E5E5E5;
+    li{
+        color: #616161;
+        margin-top: 1rem;
+        @media only screen and (max-width: 768px) {
+            
+        }
+    }
+    .list-title{
+        color: gray;
+        font-size: 1.2rem;
+    }
+    .language{
+        li{
+            display: inline;
+        }
+    }
+    .footer-last-list{
+        float: right;
+        li{
+            display: inline;
+        }
+    }
+    .footer-list-cont2:after{
+        display: table;
+        clear: both;
+        content: "";
+    }
+    img{
+        height: 3%;
+        width: 5%;
+        
+    }
+}
+
